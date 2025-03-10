@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luisa Fernanda Zuleta Hurtado</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            margin: 40px;
+            padding: 40px;
+            background: linear-gradient(to left, rgba(5, 240, 248, 0.849), rgba(176, 208, 212, 0.7));
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: rgb(20, 16, 24);
+            font-size: 40px;
+        }
+        header {
+            background: linear-gradient(90deg, #5eabf3, #c4f1ef);
+            padding: 20px;
+            color: rgb(36, 55, 73);
+            font-size: 1.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
+            gap: 10px; /* Espaciado entre columnas */
+            max-width: 400px;
+            margin: auto;
+        }
+        .columna {
+            background: linear-gradient(to right, #f8f6f6, #1cc7f1);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .profile-img {
+            width: 250px;
+            height: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: rgb(51, 82, 117);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+        .section {
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(to right, #02b5d4, #dad8d7);
+            color: rgb(24, 22, 22);
+        }
+        .box {
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 4px solid #fbfdfb;
+    border-radius: 10px;
+    background-color: #c5eaf8;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;  /* Activa Flexbox */
+    gap: 15px;  /* Espacio entre íconos */
+    justify-content: center; /* Alinea los íconos en el centro */
+    align-items: center; /* Centra los íconos verticalmente */
+}
+
+.box a {
+    font-size: 30px;
+    color: #333; /* Color de los íconos */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box a:hover {
+    color: #007bff; /* Cambia de color al pasar el mouse */
+    transform: scale(1.2); /* Hace un efecto de agrandamiento */
+}
+
+
+.box img {
+    width: auto; 
+    height: 40px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.box img:hover {
+    transform: scale(1.2); 
+}
+
+
+.whatsapp-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    background: linear-gradient(to right, #0a0a0a, #52dff5);
+    padding: 10px 450px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-box img {
+    width: 70px; /* Tamaño del icono */
+    height: auto;
+}
+
+.whatsapp-box a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-box:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento */
+}
+        
+        @media (max-width: 600px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            .grid-container {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#perfil-profesional">Perfil Profesional</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#redes-sociales">Redes Sociales</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Luisa Fernanda Zuleta Hurtado</h1>
+    </header>
+    
+    <main>
+        <img src="img/Fer.jpeg" alt="Luisa Fernanda Zuleta Hurtado" class="profile-img">
+        
+        <section id="perfil-profesional">
+            <section class="section">
+                <h2>Perfil Profesional</h2>
+            <p>Desarrolladora de software, diseñadora gráfica y community manager con un historial probado en la creación de productos digitales exitosos. Mi enfoque multidisciplinario me permite abordar proyectos desde una perspectiva global, 
+                asegurando la funcionalidad, la estética y la conexión con la audiencia. Apasionada por transformar ideas en realidad y construir comunidades leales en torno a ellas.
+                </p>
+            </section>
+            
+    
+        </section>
+        
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>📖Lectura<br>
+            🚲Ciclismo<br>
+            🎼Música<br>
+            ✈️Viajes</p>
+        </section>
+        
+        <section id="proyectos">
+            <h2>Proyectos Personales y Profesionales</h2>
+            <div class="columna">
+                <h2>Experiencia y Logros:</h2>
+                <ul>
+                    <li><a href="https://fernanda-ucp.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?atlOrigin=eyJpIjoiMjU2YmNlYWRmNWUzNDY0YWE5YWYyNjhhNzAxZmI2NzgiLCJwIjoiaiJ9">Jira</a></li>
+                <p> Desarrolladora y Diseñadora en VirtualMind - Proyecto de Innovación Educativa con AR (UCP)</p>
+                <div class="contenedor">
+                    <div class="columna">
+                        <h3>Desarrollo de Software</h3>
+                        <p>Desarrollo de aplicaciones web y móviles con tecnologías como HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, entre otras.</p>
+                    </div>
+                    <div class="columna">
+                        <h3>Diseño Gráfico</h3>
+                        <p>Diseño de interfaces de usuario, logotipos, ilustraciones y material gráfico para redes sociales y marketing digital.</p>
+                    </div>
+                <li><a href="https://hondasupermotos.com/">Honda Supermotos</a></li>
+                <img src="img/honda.jpg" alt="GSM" width="80">
+                <br><p>Community Manager y Diseñadora en Honda Supermotos</p>
+                <li><a href="https://www.persianashorizonte.com/?srsltid=AfmBOorN94Qvl-Hq-13PTMfaszFl-JuecqqQd6EPbIPQedHI3I8zFDxx">Cortinas y Persianas Horizonte</a></li>
+                <img src="img/logo  hor.png" alt="Horizonte" width="120">
+              <br><p>Community Manager y Diseñadora en Cortinas y Persianas Horizonte</p>
+                </ul>  
+            </div>
+            
+        </section>
+        
+        <section id="box-model">
+            <h2>Redes Sociales</h2>
+            <div class="box">
+                <h2>Sígueme</h2>
+                <a href="https://www.facebook.com/profile.php?id=100009198955739&locale=es_LA" target="_blank">
+                    <img src="img/facebook.png.png" alt="Facebook" width="30">
+                </a>
+                <a href="https://www.instagram.com/fer.colombia/?next=%2F" target="_blank">
+                    <img src="img/instagram.png.png" alt="Instagram" width="30">
+                </a>
+                <a href="https://www.linkedin.com/in/luisa-fernanda-zuleta-hurtado-4148b22b5/" target="_blank">
+                    <img src="img/linkedin.png.png" alt="Linkedin" width="30">
+            
+            </a>
+        </div>
+    </section>
+        </section>
+        
+        <div class="whatsapp-box">
+            <img src="img/whatsapp.png" alt="WhatsApp">
+            <a href="https://w.app/virtualmind" target="_blank">Contáctame</a>
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Luisa Fernanda Zuleta</p>
+    </footer>
+</body>
+</html>
